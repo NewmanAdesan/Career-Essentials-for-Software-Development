@@ -1,0 +1,163 @@
+
+***********************************************
+Chapter: 1. Life as a Programmer
+***********************************************
+
+
+-----------------------------------------------
+Video: What do programmers do?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:19            Computer programmers design, develop, and test software.
+
+Computer programmers ensure that the software adheres to best practices in performance, reliability, and security. 
+
+But how do computer programmers know what to develop? Well, it's based on the needs of the software.
+
+However, programmers don't only get to write new programs. They often have to work on ensuring. the health and reliability of existing programs. 
+
+However, it underscores the importance of maintaining the health of existing software. Programmers spend more time reading code than they do writing it.  
+
+
+-----------------------------------------------
+Video: A week in the life
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:20            Monday - week's priority & task research
+
+Tuesday - write code & consult others
+
+Wednesday - debugging (find & fix bugs) in your code
+
+Thursday - dealing with edge cases and writing tests
+
+Friday - show your work ( They may have questions on why you took a particular approach or provide suggestions on how you can improve the new feature. ) 
+
+
+-----------------------------------------------
+Video: The biggest challenges
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:44            Naming:  Programming involves naming things daily. Naming is a form of communication. It helps convey the purpose of the code, what someone should expect it to do.
+
+Legacy Code: This is code that you're afraid to change. the original programmer who developed it no longer works with the company and the code is too complicated to understand, there are no tests or the tests are insufficient to feel confident in making changes. 
+
+Task Duration Estimates:  task time depends on several factors (coding-time, research-time, testing-time, documentation-time). How many total hours of coding will they have minus meetings and other tasks? What type of research is needed before coding this new feature? Will it be easy or difficult to write tests for this feature? Do they need to provide documentation for others? The answers to each of these questions will impact the final estimate. 
+
+
+-----------------------------------------------
+Video: Keeping your skills sharp
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:41            you must find the time to investigate what's trending in the industry 
+  * subscribe to a newsletter that shares links to relevant industry topics.
+  * subscribe to podcasts.
+  * side projects to explore a new technology at free time.
+  * conferences, webinars, local events, and more in the tech community. 
+
+
+***********************************************
+Chapter: 2. Software Development
+***********************************************
+
+
+-----------------------------------------------
+Video: What is software development?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:01            Software development involves various processes related to software design, development and delivery.
+
+Three Basic Classification of Software: 
+
+system software - provide core functions, such as operating systems or hardware management. they often runs in the background and they do not require the user to interact with it. 
+
+application software - these help users perform a specific task. e.g ecommerce-web-app, chat-application.
+
+programming software - this software gives programmers the tools they need to create code. a place to write, a way to test, and a way to package their code for use. 
+
+
+-----------------------------------------------
+Video: The software development process
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:49            software is developed in various phases known as the software development life cycle or SDLC.
+
+1.) Requirements Gathering: understand what is needed by users and the business. conduct interviews, hold workshops, or research competitors to provide the direction for the project.
+2.) Analysis: focus on the portion of the requirements that they plan on implementing. identify any risk to the project's success and document the high level goals. 
+3.) Design: how the various components will fit together. a blueprint for how programmers write code.
+4.) Coding: write code using a chosen programming language.  
+5.) Testing: bugs or defects are found and communicated and fixed.
+6.) Deployment: software is made available to user.
+7.) Maintenance: additional bugs may need to be fixed or minor adjustments made. 
+
+
+-----------------------------------------------
+Video: Explore the various roles in software development
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:09            The Development Team:
+1.) The Business Stakeholder - accountable for the project budget, direction, and its ultimate success. has a considerable influence on what features the team develops.
+2.) Product Manager - works with the stakeholder to define the user needs and set the product roadmap. works closely with the programmers and designers to deliver features. 
+3.) The Designers - 
+        (3a) User Experience Designer - ensures the software is user friendly. does user research and stays up to date on the latest guidelines for human-computer interaction. 
+        (3b) UI Designer - provides the styles, graphics, and user interface elements needed by programmers.
+4.) The Programmers. 3 programmers specializing in various layers of the system. 
+        (4a) The Frontend Programmer -  handles what the users see and interact with. 
+        (4b) The Backend programmer - focuses on the software rules known as business logic. 
+        (4c) The Fullstack programmer - write code for any system layer. 
+5.) The Quality Assurance Engineer - ensures the quality of the software that is developed. tests the software under various conditions and ensures it behaves as expected. 
+
+
+-----------------------------------------------
+Video: Tools used for software development
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:49            1.) Whiteboard: brainstorming ideas, visualizing project components, and collaborating on a problem. 
+
+2.) Online collaboration software: allows a team to collaborate on files together. Companies like Microsoft, Google, and Atlassian provide softwares like this. requirements need to be documented, systems need to be represented visually, and presentations need to be created for stakeholders, and much, much more. Being able to collaborate on these files as a team is critical.
+
+3.) Project Management Software: plan software projects and keep them on track. define each task of a project, assign it to the appropriate person, and monitor the time it takes to complete. 
+
+4.) Integrated development environments:  to write code for the project. Similar to project 
+
+5.) Paper and Pencil: sketch simple designs, jot ideas, and outline system interactions. 
+
+
+-----------------------------------------------
+Video: Getting software to customers
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:12            One of the most critical aspects of the software development process is getting it to the customers most importantly to the intended users.
+
+The software must be protected adequately such that it is not illegally copied or distributed to non-paying customers.
+
+Software Deployment is delivery software to the intended users. code written by the programmers is PACKAGED, TESTED, and RELEASED, so that the desired customers can use it.
+
+Modern Web Application Deployment Process:
+   - the deployment process is highly automated. 
+   - code is written
+   - code is tested 
+   - code is packaged into the existing project. 
+   - code executable is produced. an executable is a file or program that computers can run. 
+   - code executable is then copied to the internet. 
+   - users can now go to the website's URL and benefit from the programmer's changes. 
+
+Modern Mobile Application Deployment Process: 
+   - the process is often a mix of automated and manual steps. 
+   - code is written
+   - code is packaged into the existing project. 
+   - code executable is then produced(new). 
+   - code executable is given to the tester. the tester manually checks that the recent changes didn't introduce any bugs. 
+   - code executable is copied to an app store. app stores help protect the executable from illegal copying and provide a mechanism for delivering the changes to users. 
+
+The development team will monitor the success of the project based on the actions taken by customers. fixing bugs they discover once the software is fully deployed. 
+

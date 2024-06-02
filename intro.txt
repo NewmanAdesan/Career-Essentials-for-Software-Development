@@ -1,0 +1,5 @@
+
+
+Course Title: Introduction to Career Skills in Software Development
+
+Description: Are you ready to take the first step on your journey as a computer programmer? Maybe you want to land a new job or change careers to a different industry. Whatever your goals, you don’t need a tech background to get started with programming today. In this course, instructor Annyce Davis gives you a comprehensive, behind-the-scenes look at what it’s really like to be a programmer, from basic concepts and core professional skills, to landing your first role and advancing your career.Discover the power of computing in projects and technical roles, as you prepare for the Microsoft GSI Programming Foundations certificate exam. Learn about a week in the life of a programmer working in software development. Explore tools of the trade and various programming languages with a crash course in Python, the object-oriented programming language that’s beginner-friendly and easy to use. Upon completing this course, you’ll be ready to rewrite your resume and kick off your job hunt today.
