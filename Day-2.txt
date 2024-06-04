@@ -1,0 +1,363 @@
+
+
+***********************************************
+Chapter: 3. Tools of the Trade
+***********************************************
+
+
+-----------------------------------------------
+Video: Explore version control systems
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            version control systems helps MAKE UPDATE to code SAFELY.
+version control is the practice of tracking and manages changes to software.
+
+Benefits of using version control: 
+    - you can go back if you make a mistake. 
+    - multiple programmers can work on a project simultaneously while minimizing conflicts.
+    - anotating code changes which helps with troubleshooting. 
+
+Git is a popular version control system.it is popular because of its branching model.
+   - the branching model defines the rules for making isolated code changes 
+   - and then having those changes brought back into the main project. 
+   - you can have multiple local branches that can be entirely independent of each other and then easily merge to the main branch. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Tour various code repository services
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:45            Repository Hosting Services are third-party web applications that wrap and enhance a version control system. 
+the most popular hosting service for Git is GitHub. 
+
+
+Basic Features of GitHub:
+     - your code in the cloud (availability). 
+     - find popular packages. gitHub has a software package registry. this registry helps you to find libraries that are community approved. 
+     - built-in code review process. code review lets other programmers on your team share feedback and ask questions about your work. an invaluable tool that ensures THE QUALITY OF CODE CHANGES. 
+     - the gitHub workflows. the workflows allow you to create a series of checks that must pass before a new version of the software is shipped to customers. It's a powerful feature that aids teams in delivering software constantly. 
+
+
+Bitbucket is another example of a repository hosting service. 
+     - it is great for teams that prefer a seamless integration with their OTHER PLANNING TOOLS. 
+     - like github it offers code review. if using their software tracking tool, Jira, you can take additional actions like creating tasks and issues directly in your code review. There is no need to have another system to handle that. 
+     - like githup workflow it has pipelines. these pipelines allow you to run checks and ship software when everything looks good. 
+     - you can receive real-time security alerts while you're developing code that can help to keep your project secure. 
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Introduction to libraries and frameworks
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            we call code that someone else has written and verified a library.
+each library serves a specific purpose, allow you easily perform common tasks e.g working with files, displaying images, editing images, performing mathematical computations e.t.c
+
+
+Examples of Libraries:
+   - ktor is a library in kotlin programming language. it allows you to make network requests and handle the responses in your application,
+   - numbPy is a library in python programming language. it helps simplify the processing of large data sets, 
+
+
+A framework is more than a simple tool. 
+It serves as the blueprint for how your software project should be configured and developed. 
+
+
+Example of a Framework is Next.js. a popular framework for developing web applications. 
+    - It defines the file structure you should use for your code to get the most out of the framework. 
+    - It defines rules when followed that allow your website to load quickly and efficiently. 
+
+
+As the programmer, you write the code, and the framework does the heavy lifting. 
+this two make our jobs easier to do, allowing us to focus on the unique complexities of the current task and leave the everyday parts to them. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Survey different types of IDEs
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            IDE helps you to write, debug, and compile code more efficiently. 
+
+what is the difference between Notepads and Microsoft Word? FEATURES.
+with Word comes 'spell check', 'advanced formatting', 'integrations' e.t.c
+
+THE MAJOR IDEA IS making it easier to get the job done. It's the same way with IDEs. 
+they make you more productive with their daily coding task. 
+
+Few Examples of popular IDEs
+    - Visual Studio Code:  a lightweight IDE. one of its unique features is IntelliSense. 
+       intelliSense allows you to get code suggestions while typing like auto-complete. 
+    - IntelliJ IDEA: optimized for the Java. uniquely has built-in support for spotting errors in your code and helping you to write code that follows best practices. I
+    - Sublime Text:  blazing fast, lightweight, and powerful. great for projects that don't require the powerful features of a traditional IDE. 
+
+
+-----------------------------------------------
+Video: Learn where to get help
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:19            an underated skill for a programmer is knowing where to get help.
+
+sometimes you can get stuck meaning your code is not doing what you are expecting it to do.
+
+do me a favour and answer 2 Question accurately
+   - what are you expecting your code to do?
+   - what then is your code doing?
+
+Three resources for getting yourself unstuck
+   - the official documentation of the programming language: 
+         * you get code examples.
+         * you get explanations of various commands & their expected behavior.
+   - stackoverflow.com
+         * copy and paste your error message
+            and view similar questions to what you are experiencing.
+   - online tech communities/online slack communities
+   - take a step back, go for a walk OR a good night sleep. 
+
+
+***********************************************
+Chapter: 4. Programming Languages
+***********************************************
+
+
+-----------------------------------------------
+Video: What is a programming language?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:30            with programming languages we provide instructions to a computer.
+it is written in text, and based on a set of rules. 
+
+computers only understand machine language which is highly complex to write directly as it's a long series of numbers. 
+
+Therefore we write instructions in other programming languages closer to human languages. 
+
+many websites are written in the JavaScript programming language. 
+many android applications are written with the Kotlin programming language. 
+many video games with the C# programming language. E.T.C. 
+
+they each have their strength and weaknesses
+some are ideal for programming small devices with limited memory, 
+whereas others were made to handle complex mathematical computations. 
+
+Software projects rely on programming languages to achieve the desired goal of the business. 
+Therefore, choosing the appropriate one will impact the outcome. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Basic components of a programming language
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:44            Two Basic Component of a Programming Language:
+      - Syntax 
+      - Semantics
+
+
+Syntax refers to the rules of writing.
+Semantics refers to the meaning of what is written. what you are actually instructing the computer to do.
+
+
+Python vs Javascript Programming language to print out the word Hi!
+      - document.write('Hi!');   (js)
+      - print "Hi!"   (python)
+
+
+Kotlin Programming Language syntax to assign space and memory and store the word Hi in it. then label that space greeting. and later, if someone tries to clear out the memory for the space labeled greeting, do not allow this:
+      - var greeting: String = "Hi"
+      - greeting = null 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: What is source code?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:57            Source code is human-readable computer instructions written by programmers. 
+
+it is plain text with no special formatting so programmers use IDE instead of Microsoft Word.
+because by default in Microsoft word they insert bits of information in files that prevent them from being plain text.
+
+source code is often made up of multiple lines of code. 
+    - It can contain empty lines and spaces. 
+    - you'll also see a few human-readable words mixed in with numbers and non-numeric characters. 
+
+
+-----------------------------------------------
+Video: Running source code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:35            remember, computers only speak one language, machine language. 
+
+So we need to convert code in other programming languages into machine language. this process is called Compiling.
+
+Compiling is one way that human-readable code is converted into machine code. 
+
+The process of compiling code can be complex. 
+IDEs come with the ability to compile our code. 
+
+you will need to perform some additional steps to get your code to run on your machine. 
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Exploring variables
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:20            In algebra class, a variable was a placeholder for an unknown value. 
+similarly, in programming, we use variables as a container for a value. 
+
+
+When we run our programs, 
+the computer gives us space in its memory 
+where we can put data that we want to use as a reference for later. 
+This data is called a variable. 
+
+Think of an online word game:
+    - a programmer will need to keep track of dozens of variables in computer memory 
+    - the score for each player
+    - the total number of tiles left to play
+    - the value of each tile, 
+    - bonus points, and more.
+
+
+do note that As the game proceeds, the values of the variables may change. think about it.
+there are special types of variables that do not change. we call them CONSTANTS. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Video: Basic statements and expressions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:52            statements are the building blocks of any program. 
+statements are the individual actions that you want your program to take. 
+each statement can be made up of keywords, expressions, and operators. 
+
+
+Operators
+     - they are symbols that tell the computer to perform an action with some input. 
+     - e.g + is the operator in 10 + 2
+
+
+Expressions
+     - the result of these operations that break down to a single value are called expressions. 
+     - in programming, you'll encounter various types of expressions. 
+     - the result may be a number, it may be values like true or false or something else entirely. 
+
+
+Keywords
+     - they is a reserved word that means something special to the given programming language. 
+     - reserved means we can't create our own variable with the same name. 
+     - if we do this, the program would not compile, as the keywords need to be used according to the rules of the language. 
+     - each programming language has a set of reserved keywords useful for building robust statements. 
+
+
+Computer programs are made up of statements:
+     - statements that can perform a mathematical calculation, 
+     - statements that print something to the screen, 
+     - statements that make a choice between two code paths. 
+
+
+This powerful concept is the foundation of all code that programmers write. 
+
+
