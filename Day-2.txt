@@ -1,4 +1,22 @@
 
+Table of Content
+     Chapter 3: Tools of the Trade
+          - Video 1: Explore version control systems
+          - Video 2: Tour various code repository services
+          - Video 3: Introduction to libraries and frameworks
+          - Video 4: Survey different types of IDEs
+          - Video 5: Learn where to get help
+
+     Chapter 4: Programming Languages
+          - Video 1: What is a programming language?
+          - Video 2: Basic components of a programming language
+          - Video 3: What is source code?
+          - Video 4: Running source code
+          - Video 5: Exploring variables
+          - Video 6: Basic statements and expressions
+
+
+
 
 ***********************************************
 Chapter: 3. Tools of the Trade

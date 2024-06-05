@@ -1,0 +1,387 @@
+
+VSCode features
+    - with ide's we get feature that make coding process more productive.
+    - Line Numbering: makes it easy to find code
+    - Syntax highlighting: makes it easy to identify code type (special key words or various objects)
+        * different programming languages will have different syntax highlighting
+        * vscode knows the programming language you are writing based on the file extension
+
+VSCODE (How to run python)
+    - with python, in vscode we can run the whole file OR just run a line of code
+    - right click any where in the file to view the file menu & you would have 2 options
+         * Run Python File in Terminal
+         * Run Selection/line in Python Terminal
+
+
+
+STATEMENTS
+    - statements are the building blocks of any program 
+    - they are the individual actions that you want your program to take. 
+    - They are made up of keywords, expressions, and operators.
+    -
+    - Operators 
+    - operators are symbols that tell the computer to perform an action with some input e.g +, -.
+    - the inputs are also known as operands. 
+    - 
+    - Expressions
+    - In programming, the combination of operators and operands that break down to a single value are called expressions
+    - a mathematical example, 10+2*3 is an expression and the result is 16
+    - note that there is an order of operation here & it is the same as the matimatical order
+    - note that there is an order the interpreter follows when there is a chaining of multiple inpts
+    - 
+    - Computer programs are made up of statements, 
+    - statements that can perform a mathematical calculation, 
+    - statements that display something to the screen, 
+    - statement that make a choice between two code paths. 
+    - this is a powerful concept
+
+
+
+Troubleshooting
+    - programs tend to have bugs, what can you do to figure out why your code is acting up? 
+    - first, you need to understand what type of bug or error you're dealing with.
+    - Syntax Error: means you somehow broke the rules of the language. 
+    - Runtime Error: means the computer was unable to execute a portion of your code. 
+    - Semantic Error: means the output of the program is not what you expected. 
+    -
+    - Syntax Error
+    - print(Hello World)
+    -
+    - Runtime Error
+    - this error happens while the program is running
+    - 10 * (2 / 0) --> ZeroDivisionError: division by zero
+    -
+    - Semantic Error
+    - name = "Alice" && print("Hello name")
+    - the result is "Hello name" and not "Hello Alice"
+    - Semantic errors are the most challenging to troubleshoot, 
+    - it's best to make tiny changes and then run your code. that makes it easier to figure out where you introduced the error. 
+    - 
+    -
+    - also, a short walk can help clear your head and come back to the problem with fresh ideas.
+
+
+
+Chapter Quiz
+
+
+Question 1 of 20
+Question: How will you run the Python code in the file "process.py" on the command-line prompt?
+Choices:
+A) python3 exec process.py
+B) python3 process.py
+C) run python3 process
+D) python3 process.py
+Correct Answer: B) python3 process.py
+
+Question 2 of 20
+Question: To get Python code suggestions, you need to tell VS Code which Python interpreter to use.
+Choices:
+A) TRUE
+B) FALSE (INCORRECT)
+Correct Answer: A) TRUE
+
+Question 3 of 20
+Question: Which statement is true regarding Python support in VS Code?
+Choices:
+A) VS Code support for Python is planned for the near future.
+B) VS Code comes fully ready to support Python.
+C) Only a specific VS Code version supports Python.
+D) You need to install a VS Code extension to support Python.
+Correct Answer: D) You need to install a VS Code extension to support Python.
+
+Question 4 of 20
+Question: What does this expression evaluate to? 2 * 3 + 2 * 5
+Choices:
+A) 16
+B) 26
+C) 40
+Correct Answer: A) 16
+
+Question 5 of 20
+Question: Which expression evaluates to 20?
+Choices:
+A) 4 * (4 + 4)
+B) 5 + 5 * 2
+C) 11 - 1 * 2
+D) (2 + 3) * 4
+Correct Answer: D) (2 + 3) * 4
+
+Question 6 of 20
+Question: Which is an example of a syntax error?
+Choices:
+A) 2 (4_2)
+B) 2 + (4/0)
+C) 2 + (4_2)
+Correct Answer: A) 2 (4*2)
+
+Question 7 of 20
+Question: Which is NOT a reason why we chose Python as the language for the course?
+Choices:
+A) highly performant
+B) beginner-friendly
+C) relevant (INCORRECT)
+D) popular
+Correct Answer: A) highly performant
+
+Question 8 of 20
+Question: Which concern could be considered a disadvantage of Python under certain circumstances?
+Choices:
+A) Python has a complex syntax. (INCORRECT)
+B) Python is not very popular.
+C) Python cannot build web apps.
+D) Python is a general-purpose language.
+Correct Answer: D) Python is a general-purpose language.
+
+Question 9 of 20
+Question: Why does VS Code need a Python interpreter to be specified?
+Choices:
+A) to load a Python file (INCORRECT)
+B) to install extensions
+C) to add Windows Explorer actions
+D) to provide code suggestions
+Correct Answer: D) to provide code suggestions
+
+Question 10 of 20
+Question: When working with the Terminal inside of VSCode, how can you expand the pane?
+Choices:
+A) Click the trash can.
+B) Click the plus button. (INCORRECT)
+C) Click the up arrow.
+Correct Answer: C) Click the up arrow.
+
+
+Question 11 of 20
+What is printed when running the following line in the Python Terminal?
+5 * 2 + 1
+
+- A) 11
+- B) 521
+- C) 5*2+1
+- D) 53
+
+Correct Answer: A) 11
+
+Question 12 of 20
+What does this expression evaluate to?
+3 + 2 * 5
+
+- A) 13
+- B) 20
+- C) 25
+
+Correct Answer: A) 13
+
+Question 13 of 20
+Which category does the error fall under in the code below?
+x = 5
+print("x")
+
+- A) syntax
+- B) runtime
+- C) stack
+- D) semantic
+
+Correct Answer: A) syntax
+
+Question 14 of 20
+Which statement is true regarding Python on a Mac?
+
+- A) It is not possible to upgrade the Python version on a Mac.
+- B) Python is automatically upgraded on a Mac every time the terminal is started.
+- C) There is only one version of Python supported on a Mac.
+- D) A Mac comes with a version of Python already installed.
+
+Correct Answer: D) A Mac comes with a version of Python already installed.
+
+Question 15 of 20
+Which is an example of a runtime error?
+
+- A) name = "It's me!" print("Hello.", name)
+- B) name = "It's me!" print("Hello.", Name)
+- C) print("Hello.", "It's me!)
+
+Correct Answer: B) name = "It's me!" print("Hello.", Name)
+
+Question 16 of 20
+Typing “What is 2 plus 2?” into the Python prompt causes a ___.
+
+- A) segmentation fault
+- B) computer meltdown
+- C) syntax error
+
+Correct Answer: C) syntax error
+
+Question 17 of 20
+Which Mac application allows you to run commands and execute scripts in a command-line interface?
+
+- A) Terminal
+- B) Finder
+- C) Operating System
+- D) Browser
+
+Correct Answer: A) Terminal
+
+Question 18 of 20
+Which command will start the Python prompt on your computer?
+
+- A) start_python
+- B) open_python
+- C) python3
+- D) pypy
+
+Correct Answer: C) python3
+
+Question 19 of 20
+Which command exits from the Python command-line prompt?
+
+- A) stop
+- B) break()
+- C) exit()
+- D) terminate
+
+Correct Answer: C) exit()
+
+Question 20 of 20
+If you execute the following expression, what is the output?
+>>> 3 + 5 * 2
+
+- A) 10
+- B) 13
+- C) 16
+
+Correct Answer: C) 16
+
+
+
+Variables
+    - writing code typically involves the handling of information/handling values.
+    - like in a game we store the users score
+    - in a banking application we store account balance 
+    - 
+    - a variable is simply a container for a value. 
+    - when we run our programs, the computer gives us space in its memory where we can put data that we want to use as a reference for later. 
+    - this data is called a variable. 
+    - 
+    - we declare variables in Python by giving them a name and then setting their value. 
+    - this is called assigning the value. and done with the assignment operator (=), 
+    - age = 36 means that somewhere in the computer's memory, it's made space & stored our value in it. 
+    - age = 36 i want to take the value on the right and store it in the variable on the left. 
+    - it doesn't mean the two sides are equal. That's important to keep in mind. Okay, let's 
+    
+
+Data type
+    - age = 36
+    - email_number = "John.doe@example.com"
+    - this variables are quite different because of the type of value they store.
+    -
+    - a data type allows us to put our variable in a particular category 
+    - so that the computer knows how much space to give us in its memory. 
+    - so that the computer know how we plan to use our variable later on in the program. 
+    - 
+    - 36 is an integer, an whole number, no decimal places,
+    - the letters and symbols inside of the double quotes is called a string
+    -
+    - you can check the type of any value or variable in Python by using the type function.
+    - type(age) --> "int"
+    - type(email_number) --> "str"
+
+
+Variables across languages (type specificity)
+    - in some languages, you define your variables and their types before you can use them, like Java, C#, and C++. 
+    - if we store a different type in the variable, we get an error
+    -
+    - in Python (a more relaxed language), we don't need to declare a variable's type before using it. 
+            cookies = "sugar"
+            print(cookies) ---> 'sugar'
+            print(type(cookies)) ---> 'str'
+            cookies = 4
+            print(cookies) ---> 4
+            print(type(cookies)) ---> 'int'
+    - the Python interpreter can infer the type based on the value.
+    - we can also change the value to a different type, 
+    -
+    - the more relaxed languages tend to be more flexible and result in less code, 
+    - whereas with more strict languages, you have fewer surprises when the code is actually run. 
+    - you don't have to worry about the values changing to something strange later on. 
+
+Variable Naming Rules in python
+    1.) variable names should contain only letters, numbers, and underscores. and the name shouldn't start with a number. 
+    2.) spaces are not allowed in the name. 
+    3.) it's important to know that names are case sensitive.
+    4.) variables cannot be keywords. These are reserved words that mean something special to the Python interpreter
+            # to get the complete list of keywords in python
+            import keyword
+            print(keyword.kwlist)
+    5.) generally, you want to use short, descriptive names that make your code easy to understand. 
+
+
+
+Python & whole numbers 
+    - python treats numbers in a few different ways 
+    - depending on how they're being used 
+    - and the difference is largely based on whether it's a whole or fractional one. 
+        2 + 3 -> 5
+        2 * 3 -> 6
+        2 ** 3 -> 8 (exponentiation)
+        3 / 2 -> 1.5
+        3 // 2 -> 1 (floor division)
+        5 % 3 -> 2
+    - 45,000 / 5 -> (45, 0.0) (comma confused the interpreter - do not use comma when dealing with large numbers) 
+    - 45000 / 5  -> 9000.4
+
+
+Python & fractional numbers
+    - in the real world, fractional numbers are a daily part of our lives.
+    - in languages like JavaScript, 
+    - there's no distinction between numbers with and without decimal places. 
+    - whereas in most programming languages, numbers with decimal places are considered special numbersand called floats. 
+    - float is any number with a decimal point short for a floating-point number. - it's used for when more precision is required 
+        0.2 + 0.3 -> 0.5
+        0.2 / 0.3 -> 0.66666666666667 (lots of decimal places because python is tying to be as precise as possible)
+
+
+
+Working with Strings
+    in programming when dealing with text, we use strings meaning a string characters (one by one)
+    The characters can be letters, numbers, symbols, and even spaces.
+        print("Hello")
+        print('Hello')
+
+    in Python, we could use single quotes to create a string as well as double quotes.
+    but we cannot nest the same quote type
+        print("She said "Unbelievable", to him")  --> syntax error
+        print("Hello')  --> syntax error
+        print("She said 'Unbelievable', to him") --> correct
+        print('She said "Unbelievable", to him') --> correct
+
+    I recommend using the double quotes version of strings as your go to as it is the most common version that you'll see across languages
+
+
+Properly using whitespace
+    - python doesn't care about extra empty lines in your programs, 
+    - but it's common for developers to add extra empty lines to make their code easier to read.
+    - we add white space between code-logic or between the different elements of our statements
+       if answer=="Yes" and if answer == "Yes"
+    - in the above, the two statement are the same things
+    - although in python, there are times space matters, when dealing with keywords
+       if answer == "Yes"  !=  ifanswer == "Yes"
+
+
+Working with Comments
+    - adding comments to your code, you can document the purpose of the different variables, functions, and classes. 
+    - Comments are started with hash marks. when python see this, it knows to ignore the rest of the line
+    - we can also use comment to temporarily ignore some code (the commenting-out-code-technique)
+    - 
+    - block comments
+         # greet the user
+         print("hi")
+    - inline comment 
+        name = input("What is your name?")  # collect user name
+    -
+    -
+    -
+    - Comments are a powerful tool for programmers, 
+    - we can use them to serve as reminders, 
+    - provide explanations for other developers, and
+    - help us with debugging code.
