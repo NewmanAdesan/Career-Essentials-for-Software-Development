@@ -1,4 +1,23 @@
 
+Table of Content
+     Chapter 1: Life as a Programmer
+          - Video 1: What do programmers do?
+          - Video 2: A week in the life
+          - Video 3: The biggest challenges
+          - Video 4: Survey different types of IDEs
+          - Video 5: Learn where to get help
+
+     Chapter 2: Software Development
+          - Video 1: What is a programming language?
+          - Video 2: Basic components of a programming language
+          - Video 3: What is source code?
+          - Video 4: Running source code
+          - Video 5: Exploring variables
+          - Video 6: Basic statements and expressions
+
+
+
+
 ***********************************************
 Chapter: 1. Life as a Programmer
 ***********************************************
@@ -7,45 +26,63 @@ Chapter: 1. Life as a Programmer
 -----------------------------------------------
 Video: What do programmers do?
 -----------------------------------------------
-Note Time:         Note Text:                     
+Keywords: 
+        - design, develop and test software
+        - adheres to best practices
+        - reliability
+        - performance
+        - security
+        - health & reliability of existing program
+        - the needs of a software
+        - reading than writing
 
-0:01:19            Computer programmers design, develop, and test software.
+Note:
+        Computer programmers design, develop, and test software.
 
-Computer programmers ensure that the software adheres to best practices in performance, reliability, and security. 
+        Computer programmers ensure that the software adheres to best practices in performance, reliability, and security. 
 
-But how do computer programmers know what to develop? Well, it's based on the needs of the software.
+        But how do computer programmers know what to develop? Well, it's based on the needs of the software.
 
-However, programmers don't only get to write new programs. They often have to work on ensuring. the health and reliability of existing programs. 
+        However, programmers don't only get to write new programs. They often have to work on ensuring. the health and reliability of existing programs. 
 
-However, it underscores the importance of maintaining the health of existing software. Programmers spend more time reading code than they do writing it.  
+        However, it underscores the importance of maintaining the health of existing software. Programmers spend more time reading code than they do writing it.  
 
 
 -----------------------------------------------
 Video: A week in the life
 -----------------------------------------------
-Note Time:         Note Text:                     
+Keywords: 
+        - priority
+        - research
+        - consulting others
+        - edge cases (dealing)
+        - tests (writing)
+        - work showcase (questioning of approach & suggestions provision)
 
-0:01:20            Monday - week's priority & task research
+Note:          
+        Monday - week's priority & task research
 
-Tuesday - write code & consult others
+        Tuesday - write code & consult others
 
-Wednesday - debugging (find & fix bugs) in your code
+        Wednesday - debugging (find & fix bugs) in your code
 
-Thursday - dealing with edge cases and writing tests
+        Thursday - dealing with edge cases and writing tests
 
-Friday - show your work ( They may have questions on why you took a particular approach or provide suggestions on how you can improve the new feature. ) 
+        Friday - show your work ( They may have questions on why you took a particular approach or provide suggestions on how you can improve the new feature. ) 
 
 
 -----------------------------------------------
 Video: The biggest challenges
 -----------------------------------------------
-Note Time:         Note Text:                     
+Keywords: 
+        - the code purpose & the code expectation
 
-0:00:44            Naming:  Programming involves naming things daily. Naming is a form of communication. It helps convey the purpose of the code, what someone should expect it to do.
+Note:      
+        Naming:  Programming involves naming things daily. Naming is a form of communication. It helps convey the purpose of the code, what someone should expect it to do.
 
-Legacy Code: This is code that you're afraid to change. the original programmer who developed it no longer works with the company and the code is too complicated to understand, there are no tests or the tests are insufficient to feel confident in making changes. 
+        Legacy Code: This is code that you're afraid to change. the original programmer who developed it no longer works with the company and the code is too complicated to understand, there are no tests or the tests are insufficient to feel confident in making changes. 
 
-Task Duration Estimates:  task time depends on several factors (coding-time, research-time, testing-time, documentation-time). How many total hours of coding will they have minus meetings and other tasks? What type of research is needed before coding this new feature? Will it be easy or difficult to write tests for this feature? Do they need to provide documentation for others? The answers to each of these questions will impact the final estimate. 
+        Task Duration Estimates:  task time depends on several factors (coding-time, research-time, testing-time, documentation-time). How many total hours of coding will they have minus meetings and other tasks? What type of research is needed before coding this new feature? Will it be easy or difficult to write tests for this feature? Do they need to provide documentation for others? The answers to each of these questions will impact the final estimate. 
 
 
 -----------------------------------------------

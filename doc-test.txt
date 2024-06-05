@@ -62,198 +62,6 @@ Troubleshooting
 
 
 
-Chapter Quiz
-
-
-Question 1 of 20
-Question: How will you run the Python code in the file "process.py" on the command-line prompt?
-Choices:
-A) python3 exec process.py
-B) python3 process.py
-C) run python3 process
-D) python3 process.py
-Correct Answer: B) python3 process.py
-
-Question 2 of 20
-Question: To get Python code suggestions, you need to tell VS Code which Python interpreter to use.
-Choices:
-A) TRUE
-B) FALSE (INCORRECT)
-Correct Answer: A) TRUE
-
-Question 3 of 20
-Question: Which statement is true regarding Python support in VS Code?
-Choices:
-A) VS Code support for Python is planned for the near future.
-B) VS Code comes fully ready to support Python.
-C) Only a specific VS Code version supports Python.
-D) You need to install a VS Code extension to support Python.
-Correct Answer: D) You need to install a VS Code extension to support Python.
-
-Question 4 of 20
-Question: What does this expression evaluate to? 2 * 3 + 2 * 5
-Choices:
-A) 16
-B) 26
-C) 40
-Correct Answer: A) 16
-
-Question 5 of 20
-Question: Which expression evaluates to 20?
-Choices:
-A) 4 * (4 + 4)
-B) 5 + 5 * 2
-C) 11 - 1 * 2
-D) (2 + 3) * 4
-Correct Answer: D) (2 + 3) * 4
-
-Question 6 of 20
-Question: Which is an example of a syntax error?
-Choices:
-A) 2 (4_2)
-B) 2 + (4/0)
-C) 2 + (4_2)
-Correct Answer: A) 2 (4*2)
-
-Question 7 of 20
-Question: Which is NOT a reason why we chose Python as the language for the course?
-Choices:
-A) highly performant
-B) beginner-friendly
-C) relevant (INCORRECT)
-D) popular
-Correct Answer: A) highly performant
-
-Question 8 of 20
-Question: Which concern could be considered a disadvantage of Python under certain circumstances?
-Choices:
-A) Python has a complex syntax. (INCORRECT)
-B) Python is not very popular.
-C) Python cannot build web apps.
-D) Python is a general-purpose language.
-Correct Answer: D) Python is a general-purpose language.
-
-Question 9 of 20
-Question: Why does VS Code need a Python interpreter to be specified?
-Choices:
-A) to load a Python file (INCORRECT)
-B) to install extensions
-C) to add Windows Explorer actions
-D) to provide code suggestions
-Correct Answer: D) to provide code suggestions
-
-Question 10 of 20
-Question: When working with the Terminal inside of VSCode, how can you expand the pane?
-Choices:
-A) Click the trash can.
-B) Click the plus button. (INCORRECT)
-C) Click the up arrow.
-Correct Answer: C) Click the up arrow.
-
-
-Question 11 of 20
-What is printed when running the following line in the Python Terminal?
-5 * 2 + 1
-
-- A) 11
-- B) 521
-- C) 5*2+1
-- D) 53
-
-Correct Answer: A) 11
-
-Question 12 of 20
-What does this expression evaluate to?
-3 + 2 * 5
-
-- A) 13
-- B) 20
-- C) 25
-
-Correct Answer: A) 13
-
-Question 13 of 20
-Which category does the error fall under in the code below?
-x = 5
-print("x")
-
-- A) syntax
-- B) runtime
-- C) stack
-- D) semantic
-
-Correct Answer: A) syntax
-
-Question 14 of 20
-Which statement is true regarding Python on a Mac?
-
-- A) It is not possible to upgrade the Python version on a Mac.
-- B) Python is automatically upgraded on a Mac every time the terminal is started.
-- C) There is only one version of Python supported on a Mac.
-- D) A Mac comes with a version of Python already installed.
-
-Correct Answer: D) A Mac comes with a version of Python already installed.
-
-Question 15 of 20
-Which is an example of a runtime error?
-
-- A) name = "It's me!" print("Hello.", name)
-- B) name = "It's me!" print("Hello.", Name)
-- C) print("Hello.", "It's me!)
-
-Correct Answer: B) name = "It's me!" print("Hello.", Name)
-
-Question 16 of 20
-Typing “What is 2 plus 2?” into the Python prompt causes a ___.
-
-- A) segmentation fault
-- B) computer meltdown
-- C) syntax error
-
-Correct Answer: C) syntax error
-
-Question 17 of 20
-Which Mac application allows you to run commands and execute scripts in a command-line interface?
-
-- A) Terminal
-- B) Finder
-- C) Operating System
-- D) Browser
-
-Correct Answer: A) Terminal
-
-Question 18 of 20
-Which command will start the Python prompt on your computer?
-
-- A) start_python
-- B) open_python
-- C) python3
-- D) pypy
-
-Correct Answer: C) python3
-
-Question 19 of 20
-Which command exits from the Python command-line prompt?
-
-- A) stop
-- B) break()
-- C) exit()
-- D) terminate
-
-Correct Answer: C) exit()
-
-Question 20 of 20
-If you execute the following expression, what is the output?
->>> 3 + 5 * 2
-
-- A) 10
-- B) 13
-- C) 16
-
-Correct Answer: C) 16
-
-
-
 Variables
     - writing code typically involves the handling of information/handling values.
     - like in a game we store the users score
@@ -385,3 +193,127 @@ Working with Comments
     - we can use them to serve as reminders, 
     - provide explanations for other developers, and
     - help us with debugging code.
+
+
+
+Making Decision in Code: Boolean Expression
+    - with computers are things are absolute. There's only yes or no, true or false, one or zero. 
+    - any expression that breaks down to either true or false is called a Conditional or Boolean expression. 
+    - does 2 + 2 equals 4, Yes,
+    - is four it greater than five? No,
+    - is my name Frank? No
+    -
+    - we cannot ask computers this kinds of questions directly so we user RELATIONAL OPERATORS. 
+
+Making Decision in Code: Relational Operators
+    - we've seen arithmetic operators (+, /, %)
+    - we've seen the assignment operator (=) 
+    -
+    - Relational operators work with two operands, and they return a value, true or false, 
+    - based on their relation to each, thus the name. 
+    - examples of relationanl operators are:
+    - the equality operator (==) (evaluates the equality of operands)
+    - the not-equal-to operator (!=)
+    - the less than operator (<)
+    - the greater than operator (>)
+    - the greater than & equal to operator (>=)
+    - the less than or equal to operator (<=)
+    -
+    - 4 == 2 * 2  --> True
+    - name = "Anne"; name == "Frank" --> False
+    - 5 != 4
+    - 5 > 4
+    - 5 < 4
+
+
+Making Decision in Code: Conditional Code (IF STATEMENT)
+    - in the real world, we make decisions based on current conditions all of the time. 
+    - if it's raining, I'll take my umbrella. 
+    - if I'm sleepy, I'll grab a cup of coffee and so forth. 
+    - computer can do the same by means of an if statement. 
+            if condition:
+                do this work
+            end if
+    -
+    -
+    - in python
+            if  5 < 6:
+                print("5 is less than 6")
+            print("what happended?")
+    - note the condition, the colon, the indentation(groups statements)
+    - the indentation in Python is VERY IMPORTANT BECAUSE that's how the interpreter knows which statements belong to the if. 
+    - statements that are grouped together this way in programming is called a BLOCK. 
+    - in python, the block is ended as soon as we come to a line that's not indented anymore. 
+    - 
+    - So far, we have done top to bottom processing single line processing. 
+    - with conditional statements we now have much opportunity to interact with the user. giving us a much more interesting programs.
+
+
+Making Decision in Code: Conditional Code (IF-ELSE STATEMENT)
+    - how do we specify some action actions to take when the condition evaluates to false?
+    - we use an if-else statement in this case as well. This is done with the if-else statement. 
+            if condition:
+            do something
+            else: 
+            do something eles
+            next statement
+    - in programming, this is called the else clause, 
+    - because you never find it without an accompanying if statement. 
+    - just like in English, "every morning before I go to work" is an incomplete thought. 
+    - it's just a clause.  
+    - note that because of the indentation, next statement will run regardless
+    -
+    - with if-else statements, we will always execute one of the code blocks 
+    - depending on the result of the condition test. 
+    - this makes it perfect for when we need some action to take place in our programs.
+
+Functions
+    - functions make programs easier to read, write, and debug. 
+    - a function is a block of code packaged together with a name. 
+    - they are a core concept in programming languages going by different names like subroutines, methods, e.t.c, 
+    - they help break up your code.
+    -
+    - one key benefit of functions is that 
+    - they help us to avoid writing the same lines of code again and again. 
+    - and this becomes a serious issue when we want to change something in the line of code, we would have to change it every where.(thats why we DRY)
+    - 
+    - functions save us from having to do this type of tedious error-prone work as programmers. 
+    - we can package a code block in a function and give it a name, 
+    - and we can reuse that function anywhere just by calling it.
+    - this way its Much easier to read, much cleaner.
+
+
+Functions: Python Syntax
+        def say_hello():
+            print("Hello, friends")
+
+        say_hello()
+        say_hello()
+    - the def keyword
+    - the funtion name (follows the variable naming rule)
+    - the parenthesis & the colon
+    - the code-block & the indentation
+    - the function call
+
+
+Functions: parameters and arguments
+    - functions allow us to provide different outputs to our users based on some input. 
+    - we do this by giving our function a variable called parameters
+        def say_hello(name):
+            if name == "orire":
+                print("Hello Dad")
+            else:   
+                print("Hello ", name)
+    - name is a parameter
+    - again parameter is the name for the variables we use in our function definition
+    -
+    - arguments is the name for the values we give to our function
+        say_hello("John")
+    - note that sometimes parameters and arguments are used interchangeably, 
+    - you'll have to rely on the context to figure out the meaning, 
+    -
+    - THE KEY thing to know is that functions have the ability to change their behavior based on their parameters and arguments. 
+
+
+
+

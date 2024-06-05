@@ -1,0 +1,545 @@
+
+
+Table of Content
+     Chapter 7: Exploring Different Languages
+          - Video 1: Exploring variables across languages
+          - Video 2: Making decisions in code across languages
+          - Video 3: Tech careers and their associated programming languages
+          - VChapter 7 Quiz Questions
+
+     Chapter 8: Your First Programming Job
+          - Video 1: Explore the hiring process
+          - Video 2: Building up your technical portfolio
+          - Video 3: Writing your résumé
+          - Video 4: Preparing for technical interviews
+          - Video 5: Chapter 8 Quiz Questions
+
+
+
+
+
+***********************************************
+Chapter: 7. Exploring Different Languages
+***********************************************
+
+
+-----------------------------------------------
+Video: Statements and expressions across languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:55            At recording time, in order of popularity,
+     - Python
+     - C
+     - Java
+     - C++.
+
+
+C is used for programming operating systems, games, smart devices, and compilers for other languages.
+it is not your best choice for desktop, web, or mobile application. 
+It's a low-level language and
+it requires more advanced programming knowledge.
+          #include <stdio.h>
+          
+          int main() {
+               printf("Hello, World!");
+               return 0;
+          }
+
+          - importing a library
+          - the main function that specifies program starting point
+          - the function body with curly braces
+          - the exit status of the program
+
+
+Java is a cross-platform programming language. 
+     - this means, you write your Java code, 
+     - you compile it,
+     - and then any device that has the needed program installed can run it. 
+     - It's famous for desktop applications and backend services. 
+     - It is a C-based language. But unlike C, everything in Java is in a class. 
+          public class Hello {
+               public static void main(String[] args) {
+                    System.out.println("Hello world!");
+               }
+          }
+         
+          - notice the class keyword, this is how java prefers to organise its code.
+
+
+C++ is also a C-based language.
+It's easier to learn and work with than C,
+because it adheres to the object-oriented programming style. 
+C++ is used for games and game engines.
+
+We've already learned about classes and their importance in object-oriented programming. Here's some Java code. It looks pretty close to what we saw with the C programming language with its use of curly braces, semicolons, and the main function. One of the new additions is the class keyword. This is how the Java language prefers to organize its code. Let's take a look at one more language, C++. C++, as the name hints at, is also a C-based language It's easier to learn and work with than C, because it adheres to the object-oriented programming style. C++ is used for games and game engines. In this video, we've only covered three programming languages, and there are hundreds more. So depending on what type of applications you want to develop, you'll have the chance to choose the one that suits your needs the most. 
+
+
+-----------------------------------------------
+Video: Exploring variables across languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:29            Variables behave differently depending on the programming language. 
+some languages require you define your variables and their types before using them, 
+like Java, C#, and C++. 
+          int age = 37;
+
+
+In Relaxed language, like JavaScript. 
+we don't need to declare a variable's type before using it. 
+the js interpreter will figure out the type based on the value.
+          const area = 24;
+          - const specifies that the value of this variable should not be changed.
+
+
+Each programming language has rules for the name of your variables. 
+For example, in Python the rules are:  
+      - contain letters, numbers, underscores
+      - spaces are not allowed
+      - names are case-sensitive
+      - cannot be keywords
+
+Variable names should be short, descriptive names
+this way your code is easy to understand. 
+
+
+-----------------------------------------------
+Video: Making decisions in code across languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:53            Making Decisions in Python
+     if 5 < 6:
+          print("yes")
+
+Making Decisions in Java
+     if (5 < 6) {
+     System.out.println("yes");
+     }
+
+Making Decisions in Ruby
+     if 5 < 6
+       puts "yes"
+     end
+
+- note the parenthesis VS no-parenthesis
+- note the indentation/colon VS curly-braces VS end-keyword 
+
+
+-----------------------------------------------
+Video: Tech careers and their associated programming languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:38            Five of the most popular programming jobs:
+       Software application developer. 
+            - they create software applications 
+            - this applications may include programs built for a specific task 
+            - this applications may include programs used in operating systems. 
+            - their job involves the design, testing and troubleshooting of software to meet the needs of various users. 
+            - Java, Python, C++, C# and Ruby. 
+
+       Web developer: 
+            - responsible for how a website looks and functions.  
+            - web dev can be a fulfilling career as you have a working website to show off your hard work at the end of a project. 
+            - they specialize in front-end or backend development or work on both as a full stack developer. 
+            - JavaScript, Python, Java and PHP.
+
+
+       Network systems administrator: 
+            - they manage a company's servers, 
+            - computer equipment, local networks and intranet. 
+            - they have the challenging job of providing network security 
+            - and preventing viruses from infecting the company systems. 
+            - Python, Bash or PowerShell. 
+
+       Mobile application developer:
+            - they create software applications that run on mobile devices like phones, watches and tablets. 
+            - It's a delightful career choice as you often get to develop applications that users rely on in their everyday life. 
+            -  Kotlin, Swift and Dart. 
+
+       Software quality assurance engineer: 
+            - they work to establish and maintain the high quality of software written by other programmers. 
+            - they write code in Java, Python, JavaScript and more. 
+
+
+-----------------------------------------------
+Chapter 7 Quiz Questions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            Chapter 7 Quiz
+Question 1 of 4
+Which programming language is not suited for mobile application development?
+
+- Kotlin
+- Swift
+- Powershell
+
+Correct Answer: Powershell
+
+Question 2 of 4
+In which programming language is this code written?
+
+public class Hello { public static void main(String[] args) { System.out.println("Hello world!"); } }
+
+- Java
+- Python
+- Ruby
+
+Correct Answer: Java
+
+Question 3 of 4
+Which variable definition is invalid in Python?
+
+- if = True
+- score = "Your score"
+- bank_account_4567 = 750
+
+Correct Answer: if = True
+
+Question 4 of 4
+What is the output of this Python code?
+
+if 5 < 6: print("yes") print("no")
+
+- yes
+- no
+- yes\nno
+
+Correct Answer: yes\nno 
+
+
+***********************************************
+Chapter: 8. Your First Programming Job
+***********************************************
+
+
+-----------------------------------------------
+Video: Explore the hiring process
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:58            Understanding the Process of Job Application (The Hiring Funnel).
+The Hiring Funnel has 4 stages: 
+     - the resume review
+     - the recruiter phone screen
+     - the tech phone screen
+     - the on-site
+
+
+ Let's review each stage of the funnel together. 
+     - the goals, 
+     - who's involved, and 
+     - what you can expect.
+
+
+Stage 1 (the resume review)
+     The Goal
+          - the goal is to market yourself 
+          - and get an interview. 
+
+     Who's Involved
+          - depending on the size of the company, your resume might be reviewed 
+          - by the recruiter, the hiring manager, or even software. 
+          - some companies use automated resume screening software 
+          - to help them hone in on the most relevant applications. 
+
+     What you can expect
+          - since this is the first stage of the funnel, 
+          - you'll want to spend time getting your resume just right. 
+          - tips will be shared later
+
+
+Stage 2 (the recruiter phone screen)
+     The Goal
+          - you aim to show the recruiter that you are a good fit for the company. 
+
+     What you can expect
+          - you make sure you've done some preliminary research on the company, 
+                    * the company's official "about us" page, 
+                    * articles on their blog, 
+                    * their social media accounts, and 
+                    * public review sites. 
+          - you want to impress on the recruiter that you have a sincere interest in the company and would be a valuable contributor.
+
+
+Stage 3 (the tech phone screen)
+     The Goal
+          - you aim to highlight your technical skills, 
+          - to highlight your problem solving ability, 
+          - and once again, your interest in the team.
+
+     Who's Involved
+          - this is often conducted by a potential future colleague
+
+
+Stage 4 (the on-site)
+     The Goal
+          - your goal is to land the job.
+
+     Who's Involved
+          - you typically meet with several people from the company.
+
+     What to expect
+          - only a small number of applicants make it to this stage, 
+          - so when you get here, make the most of it. 
+          - Be personable and come prepared, 
+          - ask in advance what the structure will be, 
+          - ask in advance who will be involved in the various interviews, 
+          - ask in advance what their role is in the company. 
+          - This will ensure you feel comfortable and can be yourself. 
+
+
+-----------------------------------------------
+Video: Building up your technical portfolio
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:03            4 Techniques to Build up your Technical Portfollio
+     - sample projects.
+     - open source.
+     - internships
+     - blogging
+
+
+Technique 1 (sample projects)
+     - sample projects are small CODING TESTS
+     -  that give you the opportunity to demonstrate YOUR SKILL
+     -  with a GIVEN TECHNOLOGY. 
+     - 
+     - A Recipe app. 
+     - this project will allow you to showcase navigation, going from a list to a detail screen 
+     - it showcase persistence, if you add the ability to save your favorite recipes. 
+     -
+     - A ToDo List. 
+     -  this project is great for basic create, read, update, and delete functionality. 
+     - 
+     - A simple online game
+     - snake is a popular go to, as the graphics are minimal and the gameplay simplistic.
+
+
+Technique 2 (open source)
+     - contributing to open source. 
+     - this can be a rewarding way to learn and build up your portfolio 
+     - since all of your open source work is public. 
+     - you can REFERENCE it as proof of your skills to any future employer.
+     - 
+     -  many open source projects set aside tasks specifically for beginners. 
+     - this allows you to contribute small changes that make a difference. 
+     - How do you know which projects are looking for help? 
+     - search on GitHub for any of the following labels. 
+          * help wanted, 
+          * good for beginners
+          * good first issue. 
+
+
+Technique 3 (internships)
+     - this helps with valuable work experience. 
+     - where you to apply your newly acquired knowledge to real work. 
+     - 
+     - it helps you to stand out among your competition 
+     - as interns typically require less training 
+     - and can handle more responsibilities than someone with no prior work experience. 
+
+
+Technique 4 (blogging)
+     - there are numerous blogging platforms available for free. 
+     - blogging shows that you know how to communicate effectively in writing. 
+     - 
+     - what could you write about? 
+     - Learning something new, 
+     - setting up a sample project, 
+     - overcoming a technical challenge, 
+     - takeaways from an online event or conference.
+
+
+Don't feel like you have to do them all at once or even at all. 
+Take your time, enjoy the process. 
+If you do, you'll be on your way to landing your first job in tech. 
+
+
+-----------------------------------------------
+Video: Writing your résumé
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:44            Writing Resume (the concept)
+     - remember the goal of this stage is to market yourself and get an interview. 
+     - you can successfully market yourself by 
+               * including relevant projects 
+               * including relevant work history, 
+               * documenting the technologies and libraries that you're familiar with, 
+               * keeping it succinct and metrics-focused. 
+
+
+Writing Resume (an example)
+     - let's work on a resume for an entry-level Android programmer. 
+     - 
+     - The Skills Section
+     - we want to make sure it includes the skills mentioned in the job description. 
+     - you shouldn't lie on your resume. 
+     - we can add "familiarity with the Kotlin programming language, dependency injection and unit testing." 
+     - 
+     - 
+     - The Work Experience Section
+     - the best ways to structure the bullets in your work experience is to use this formula. 
+     - I accomplished X, as measured by Y, by doing Z. 
+     - an example. 
+     - THE WRONG WAY. 
+     - "Contributed to transforming our app into modules."
+     - this is a factual statement, but it's boring and doesn't give the reviewer insight into why this matters.
+     - THE RIGHT WAY
+     - "Transformed our Android application into modules by introducing dynamic features. This lowered our build times by 35%." 
+     - much better. use words that have power and grab the reader's attention, words like 
+     - sustained, 
+     - coordinated, 
+     - orchestrated, 
+     - acquired, 
+     - transformed
+     - spearheaded. 
+     - All of these words really help your resume to stand out. 
+     - 
+     - 
+     - The References Section
+     - add your GitHub handle and LinkedIn URL 
+     - to provide the reviewer with a more well-rounded view of you and your accomplishments.
+     - GitHub handle will allow you to showcase the projects in your technical portfolio. 
+     - LinkedIn URL highlights 
+               * your endorsements, 
+               * your recommendations and 
+               * honors you've received. 
+
+
+-----------------------------------------------
+Video: Preparing for technical interviews
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:06            The technical interview is where you get to show off your programming skills. 
+It usually comes with a coding challenge in order to gauge your aptitude for the work. 
+
+
+There are three typical flavors of tech interviews these days. 
+     - the algorithm exercise
+     - the take-home coding challenges
+     - the live coding session
+
+
+Flavor 1 (the algorithm exercise)
+     - you're asked a question that relies on your knowledge of data structures and complexity. 
+     - common during the beginning of your career. 
+
+
+Flavor 2 (the take-home coding challenges)
+     - you complete a coding exercise 
+     - but you may have a day or two to finish it on your own. 
+    - as an example, once was tasked with writing an API for online news articles for a take-home challenge. 
+
+
+Flavor 3 (the live coding session)
+     - you work on the project live with one of the engineers on the team.
+     - they questions about your solution and may provide hints when you get stuck.
+     - 
+     -  this means you'll need to prepare in advance. How do you do that? 
+                * Research the technologies that your desired team uses. 
+                * Write down notes about the pros and cons. 
+                * Then put those technologies into practice. 
+                * boost your problem-solving skills, with websites, such as LeetCode and AlgoExpert. 
+                  they provide exercises that you're likely to encounter during your tech interview. 
+
+
+Extra Flavor (build us a new feature)
+     - many companies will have you add a new feature 
+     - to their application as part of the tech challenge. 
+     - 
+     - So it's a good idea to make sure you've used their product before the interview. 
+     - For example, a music app might have you build a new filter 
+     - for their list of song screen. 
+     - If you've used their app already, you'll feel more confident about your approach and ultimate solution. 
+
+
+Extra Flavor (how to stand out)
+     - make sure you can discuss your proposed solution. 
+     - being able to effectively share your thought process 
+     - will give the interviewer insight into how you approach problems. 
+     - communicating effectively is a timeless skill that is welcomed on any software team. 
+
+
+-----------------------------------------------
+Chapter 8 Quiz Questions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:05            Chapter Quiz Data
+
+Question 1 of 5
+The goal of the ___ is to market yourself and get an interview.
+
+- Phone screen
+- Onsite
+- Résumé review
+
+Correct Answer: Résumé review
+
+Question 2 of 5
+What is an advantage of contributing to open-source projects?
+
+- Open-source work is easier to do than the work at a real job.
+- You can reference it as proof of your skills to any future employer.
+- Most companies contribute to open-source projects, so you'll have an advantage.
+
+Correct Answer: You can reference it as proof of your skills to any future employer.
+
+Question 3 of 5
+What is not a recommended way to market yourself on your résumé?
+
+- Mention that you're an expert in the technologies listed on the job description.
+- Include relevant projects and work history.
+- Keep your résumé succinct and metrics-focused.
+
+Correct Answer: Mention that you're an expert in the technologies listed on the job description.
+
+Question 4 of 5
+Which type of technical interview relies on your knowledge of data structures and complexity?
+
+- Algorithm exercise
+- Take-home coding exercise
+- Live coding session
+
+Correct Answer: Algorithm exercise
+
+Question 5 of 5
+To accelerate your growth, you can and should ___ openly with others.
+
+- Collaborate
+- Compete
+- Share all your ideas
+
+Correct Answer: Collaborate 
+
+0:01:30            Can I really be successful in this programming career
+
+Three tips to overcome my self-doubts. 
+     - be curious
+     - take time to practice
+     - don't do it alone
+
+
+Tip 1 (be curious)
+     - this will provide the drive needed to find answers when you get stuck
+     - this will help you find joy in exploring new technologies and ways of working as they come along
+     - this will keep you from being stagnant, and eventually obsolete as a programmer. 
+
+
+Tip 2 (take time to practice)
+     - You will need to practice your skills again and again, then one day it will click.
+
+
+Tip 3 (don't do it alone
+     - remember software development is a team endeavor.
+     - to accelerate your growth, you'll want to invest in a strong network of your peers.
+     - you can and should collaborate openly with others and ask for help when needed. 
+
+
