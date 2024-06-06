@@ -1,0 +1,604 @@
+
+
+Course Title: Programming Foundations: Fundamentals
+
+Description: Gain the core knowledge to begin programming in any language. In this course, instructor Annyce Davis uses Python to explore the core concepts and structure of programming languages and helps you grasp what’s going on under the hood. After going over basic statements and expressions in Python, Annyce explores strings, variables, and conditional code—which are common topics in all programming languages. She also shows how to work with different kinds of data and troubleshoot a variety of errors. Along the way, she compares how code is written in several different languages and provides guidance on the criteria to use when choosing a programming language. Upon wrapping up this course, you’ll have the knowledge you need to continue your coding journey in whichever language piques your interest.
+
+
+***********************************************
+Chapter: 1. Programming Basics
+***********************************************
+
+
+-----------------------------------------------
+Video: What is programming?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:26            
+Keywords
+     - specific instruction
+     - sequential instruction
+     - a bug VS a crash
+
+
+Programming
+     - this is the process of converting ideas 
+     - into instructions that a computer can understand and execute. 
+     - these instructions are specific and sequential. You can think of it a bit like a recipe. Let's say you wanted to  
+     - 
+     - Be specific
+     - when we give them bad instructions
+     - two things happens; a bug OR a crash, 
+     -  a bug is when something unexpected happens,
+     - a crash is when your program stops early or freezes, 
+     - 
+     - Be sequential 
+     - the order of the steps will impact your final product. If we mix the baking soda in before the eggs, we can  
+     - 
+     - in programming we have to give computers the right instructions 
+     - and the correct sequence of steps to produce the desired result. 
+     - this is important because programming is just as much about finding errors and preventing crashes 
+     - as it is about writing the instructions or code that the computer understands. 
+
+
+Programming is how we communicate with the digital world. 
+It's characterized by having instructions that are specific and sequential. 
+
+
+-----------------------------------------------
+Video: What is a programming language?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:17            Programming Language
+     - with this, we provide instructions to the computer
+     - there are several types of programming languages each with its syntax(rules) & semantics(meaning)
+     - e.g Python, Javascript, C++ 
+     - we can tell the computer to print something using each of this languages.
+     -
+     - what is the point of having so many different languages, especially if they do the same thing? 
+     - why not just have one programming language and we all use it?
+     - you see each language comes with its own strengths and weaknesses.
+     - some are ideal for programming small devices with limited memory, 
+     - some are ideal to handle complex mathematical computations. 
+     -
+     - note that actually computers do not understand this languages.
+     - the only language computer understands if Machine Language which is extremly complex.
+     - so the programming languages we write which are closer to human languages will be 
+
+
+-----------------------------------------------
+Video: Writing source code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:09            Keywords
+     - plain text
+     - formatting
+     - file extension
+
+Source Code
+     - to instruct the computer we program
+     - to program we write a programming language
+     - what is written is called a souce code
+     - 
+     - it is plain text with no special formatting (just characters)
+     - this is why we cannot use word processing application (they format our text)
+     - 
+     - the source code is written in a file. 
+     - because there are different languages there will be different types of source code
+     - so to identify one source code from the other we use FILE EXTENSION
+     - .py (python-language), .js(javascript-language) 
+
+
+-----------------------------------------------
+Video: Running your code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:23            Source Code VS Machine Code
+     - remember source-code is the instruction we write
+     - but we need to convert it to machine-code so the computer can understand & execute it.
+     - like sending a letter from an english-man to a mandarin-man
+
+
+Source Code to Machine Code Conversion
+     - Compiling
+     - Interpreting
+     - Compiling and Interpreting
+     - 
+     - 
+     - Compilers
+     - they take your source-code and convert it all into an executable that contains low level machine code. 
+     - this way, users can run your code on their machine without ever needing your original source code. 
+     - 
+     - Interpreters
+     - they process your source code each times its run, line by line, 
+     - and it's up to the other user to have the needed interpreter available on their machine.
+     -
+     - 
+     - ofcourse this is an oversimplification.
+     - they perform complex functions that help to optimize the size, speed, and security of your source code, 
+     - but it helps to convey the general idea of how they differ. 
+     - 
+     - C, C++, and Objective-C are known as compiled languages, 
+     - PHP and JavaScript are known as interpretive languages. 
+     - Java, C# and Python use the combination approach.
+
+
+The Major Point
+     - The key thing to keep in mind, is that 
+     - you may need to perform additional steps 
+     - to get your code to run on your, or someone else's machine. 
+
+
+-----------------------------------------------
+Video: Using an IDE
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:13            Integrated Development Environment
+     - you can write entire programs in simple text editors, 
+     - there are enhanced text editors that provide features that speed up code development. 
+     - they are called IDE's
+     - an IDE is an application that provides the special tools needed to write, debug, and compile code. 
+     - 
+     - 
+     - Xcode
+     - used to develop applications for Apple products, like the iPhone, iPad, or Mac. 
+     - you see features like 
+     - Line Numbering, 
+     - Syntax Highlighting 
+     - Code Preview (view the compiled result)
+     - 
+     - Visual Studio Code
+     - more lightweight editor than Xcode
+     - initially for scripting languages likeJavaScript and TypeScript. 
+     - a unique feature it has is intellisense ( code-auto-complete)
+     - 
+     - Android Studio
+     - for creating sndroid applications.
+
+
+KeyPoint
+     - IDEs can ease the burden of software development 
+     - by providing tools to help you write, debug, and run your source code more easily. 
+           
+
+
+-----------------------------------------------
+Video: Chapter Quiz
+-----------------------------------------------
+
+Question 1 of 14
+What file extension would you use to save a JavaScript source code file?
+A) .script
+B) .js (Correct)
+C) .java
+D) .py
+
+Question 2 of 14
+What is the standard extension for a Python source code file?
+A) .txt
+B) .py (Correct)
+C) .doc
+D) Empty extension
+
+Question 3 of 14
+Which IDE would you use to develop an iPhone application?
+A) Android Studio
+B) RubyMine
+C) XCode (Correct)
+
+Question 4 of 14
+Which IDE feature provides code suggestions while typing?
+A) Syntax Highlighting
+B) XCode
+C) Device Preview
+D) IntelliSense (Correct)
+
+Question 5 of 14
+Which tool is used to write source code?
+A) Text editor (Correct)
+B) Web browser
+C) Spreadsheet application
+D) Word processor
+
+Question 6 of 14
+Which language does not use a hybrid compiler/interpreter approach?
+A) C++
+B) C# (Correct)
+C) Python
+D) Java
+
+Question 7 of 14
+Why doesn't a Python file execute when double-clicked?
+A) Needs .exe extension
+B) Needs compilation to bytecode
+C) Double-clicking doesn't run Python Interpreter (Correct)
+
+Question 8 of 14
+Which language is considered an interpreted language?
+A) C
+B) JavaScript (Correct)
+C) C++
+D) Objective-C
+
+Question 9 of 14
+How would you write "Hello, world!" in Python?
+A) print("Hello, world!") (Correct)
+B) document.write("Hello, world!");
+C) std::cout
+D) put('Hello, world!')
+
+Question 10 of 14
+Is source code written in rich text?
+A) TRUE
+B) FALSE (Correct)
+
+Question 11 of 14
+Programming can be defined as converting ideas into ___ that a computer can understand.
+A) Appeals
+B) Recommendations
+C) Instructions (Correct)
+
+Question 12 of 14
+Why do computer instructions need to be sequential?
+A) Order is important (Correct)
+B) Sequence makes instructions exact
+C) Sequence reduces crashes
+D) Sequence reduces bugs
+
+Question 13 of 14
+What is a crash in programming?
+A) FALSE
+B) TRUE (Correct)
+
+Question 14 of 14
+Why are there many programming languages?
+A) Different text entry formats
+B) Many computing needs (Correct)
+C) Direct machine language writing
+D) Human-like syntax 
+
+
+***********************************************
+Chapter: 2. Programming Syntax
+***********************************************
+
+
+-----------------------------------------------
+Video: Why Python?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:27            POPULAR PROGRAMMING LANGUAGES
+    in terms of popularity, the top 5 are 
+        - Java, 
+        - Python, 
+        - JavaScript, 
+        - C++ and 
+        - C#. 
+     
+JAVASCRIPT & PYTHON
+    - Both Python and JavaScript tend to be more concise. 
+    - This means it takes fewer lines of code to get things done. 
+    - They're also easier to understand, as both languages use structuring and wording that are closer to human language. 
+
+JAVASCRIPT
+    - JavaScript was designed to work with and manipulate webpages, 
+    - and it is widely used for that very reason, although, 
+    - it can also be used for non-web applications. 
+
+Python as designed to be a general purpose language. You can use it to
+    - create web apps, 
+    - create internal company tools, 
+    - perform scientific analysis, 
+    - create games. 
+    - 
+    - it's available on multiple platforms including Mac, Windows, Linux and more. 
+    - It's a great choice for exploring the various concepts that we're going to cover. 
+
+
+-----------------------------------------------
+Video: Installing Python on a Mac
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:19            On your mac first check if you have python installed. you do this by typing this code into your terminal "python" or "python3". if you dont have it, head over to you can head over to python.org/downloads. 
+
+
+-----------------------------------------------
+Video: Running Python on the command line on Mac
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:32            Syntax errors happen when you write code that breaks the expected rules. In this case, we wrote our code in plain English, but the interpreter doesn't understand English, only Python. 
+
+to run a python file in your terminal write "python 01_03.py" 
+
+
+-----------------------------------------------
+Video: Installing Visual Studio Code on a Mac
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:41            Download the VSCode IDE
+Get the Python Extension
+Choose a Python Interpreter to use (command-shift-p ---> type "python interpreter" ---> select an interpreter to use) 
+
+
+
+
+-----------------------------------------------
+Video: Running Python in an IDE
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            VSCode features
+    - with ide's we get feature that make coding process more productive.
+    - Line Numbering: makes it easy to find code
+    - Syntax highlighting: makes it easy to identify code type (special key words or various objects)
+        * different programming languages will have different syntax highlighting
+        * vscode knows the programming language you are writing based on the file extension
+
+VSCODE (How to run python)
+    - with python, in vscode we can run the whole file OR just run a line of code
+    - right click any where in the file to view the file menu & you would have 2 options
+         * Run Python File in Terminal
+         * Run Selection/line in Python Terminal 
+
+
+-----------------------------------------------
+Video: Basic statements and expressions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:30            STATEMENTS
+    - statements are the building blocks of any program 
+    - they are the individual actions that you want your program to take. 
+    - They are made up of keywords, expressions, and operators.
+    -
+    - Operators 
+    - operators are symbols that tell the computer to perform an action with some input e.g +, -.
+    - the inputs are also known as operands. 
+    - 
+    - Expressions
+    - In programming, the combination of operators and operands that break down to a single value are called expressions
+    - a mathematical example, 10+2*3 is an expression and the result is 16
+    - note that there is an order of operation here & it is the same as the matimatical order
+    - note that there is an order the interpreter follows when there is a chaining of multiple inpts
+    - 
+    - Computer programs are made up of statements, 
+    - statements that can perform a mathematical calculation, 
+    - statements that display something to the screen, 
+    - statement that make a choice between two code paths. 
+    - this is a powerful concept 
+
+
+-----------------------------------------------
+Video: Troubleshooting issues
+-----------------------------------------------
+Note Time:         Note Text:         
+
+0:03:31            Troubleshooting
+    - programs tend to have bugs, what can you do to figure out why your code is acting up? 
+    - first, you need to understand what type of bug or error you're dealing with.
+    - Syntax Error: means you somehow broke the rules of the language. 
+    - Runtime Error: means the computer was unable to execute a portion of your code. 
+    - Semantic Error: means the output of the program is not what you expected. 
+    -
+    - Syntax Error
+    - print(Hello World)
+    -
+    - Runtime Error
+    - this error happens while the program is running
+    - 10 * (2 / 0) --> ZeroDivisionError: division by zero
+    -
+    - Semantic Error
+    - name = "Alice" && print("Hello name")
+    - the result is "Hello name" and not "Hello Alice"
+    - Semantic errors are the most challenging to troubleshoot, 
+    - it's best to make tiny changes and then run your code. that makes it easier to figure out where you introduced the error. 
+    - 
+    -
+    - also, a short walk can help clear your head and come back to the problem with fresh ideas. 
+            
+
+
+-----------------------------------------------
+Video: Chapter Quiz
+-----------------------------------------------
+
+0:00:29            Chapter Quiz
+
+
+Question 1 of 20
+Question: How will you run the Python code in the file "process.py" on the command-line prompt?
+Choices:
+A) python3 exec process.py
+B) python3 process.py
+C) run python3 process
+D) python3 process.py
+Correct Answer: B) python3 process.py
+
+Question 2 of 20
+Question: To get Python code suggestions, you need to tell VS Code which Python interpreter to use.
+Choices:
+A) TRUE
+B) FALSE (INCORRECT)
+Correct Answer: A) TRUE
+
+Question 3 of 20
+Question: Which statement is true regarding Python support in VS Code?
+Choices:
+A) VS Code support for Python is planned for the near future.
+B) VS Code comes fully ready to support Python.
+C) Only a specific VS Code version supports Python.
+D) You need to install a VS Code extension to support Python.
+Correct Answer: D) You need to install a VS Code extension to support Python.
+
+Question 4 of 20
+Question: What does this expression evaluate to? 2 * 3 + 2 * 5
+Choices:
+A) 16
+B) 26
+C) 40
+Correct Answer: A) 16
+
+Question 5 of 20
+Question: Which expression evaluates to 20?
+Choices:
+A) 4 * (4 + 4)
+B) 5 + 5 * 2
+C) 11 - 1 * 2
+D) (2 + 3) * 4
+Correct Answer: D) (2 + 3) * 4
+
+Question 6 of 20
+Question: Which is an example of a syntax error?
+Choices:
+A) 2 (4_2)
+B) 2 + (4/0)
+C) 2 + (4_2)
+Correct Answer: A) 2 (4*2)
+
+Question 7 of 20
+Question: Which is NOT a reason why we chose Python as the language for the course?
+Choices:
+A) highly performant
+B) beginner-friendly
+C) relevant (INCORRECT)
+D) popular
+Correct Answer: A) highly performant
+
+Question 8 of 20
+Question: Which concern could be considered a disadvantage of Python under certain circumstances?
+Choices:
+A) Python has a complex syntax. (INCORRECT)
+B) Python is not very popular.
+C) Python cannot build web apps.
+D) Python is a general-purpose language.
+Correct Answer: D) Python is a general-purpose language.
+
+Question 9 of 20
+Question: Why does VS Code need a Python interpreter to be specified?
+Choices:
+A) to load a Python file (INCORRECT)
+B) to install extensions
+C) to add Windows Explorer actions
+D) to provide code suggestions
+Correct Answer: D) to provide code suggestions
+
+Question 10 of 20
+Question: When working with the Terminal inside of VSCode, how can you expand the pane?
+Choices:
+A) Click the trash can.
+B) Click the plus button. (INCORRECT)
+C) Click the up arrow.
+Correct Answer: C) Click the up arrow.
+
+
+Question 11 of 20
+What is printed when running the following line in the Python Terminal?
+5 * 2 + 1
+
+- A) 11
+- B) 521
+- C) 5*2+1
+- D) 53
+
+Correct Answer: A) 11
+
+Question 12 of 20
+What does this expression evaluate to?
+3 + 2 * 5
+
+- A) 13
+- B) 20
+- C) 25
+
+Correct Answer: A) 13
+
+Question 13 of 20
+Which category does the error fall under in the code below?
+x = 5
+print("x")
+
+- A) syntax
+- B) runtime
+- C) stack
+- D) semantic
+
+Correct Answer: A) syntax
+
+Question 14 of 20
+Which statement is true regarding Python on a Mac?
+
+- A) It is not possible to upgrade the Python version on a Mac.
+- B) Python is automatically upgraded on a Mac every time the terminal is started.
+- C) There is only one version of Python supported on a Mac.
+- D) A Mac comes with a version of Python already installed.
+
+Correct Answer: D) A Mac comes with a version of Python already installed.
+
+Question 15 of 20
+Which is an example of a runtime error?
+
+- A) name = "It's me!" print("Hello.", name)
+- B) name = "It's me!" print("Hello.", Name)
+- C) print("Hello.", "It's me!)
+
+Correct Answer: B) name = "It's me!" print("Hello.", Name)
+
+Question 16 of 20
+Typing “What is 2 plus 2?” into the Python prompt causes a ___.
+
+- A) segmentation fault
+- B) computer meltdown
+- C) syntax error
+
+Correct Answer: C) syntax error
+
+Question 17 of 20
+Which Mac application allows you to run commands and execute scripts in a command-line interface?
+
+- A) Terminal
+- B) Finder
+- C) Operating System
+- D) Browser
+
+Correct Answer: A) Terminal
+
+Question 18 of 20
+Which command will start the Python prompt on your computer?
+
+- A) start_python
+- B) open_python
+- C) python3
+- D) pypy
+
+Correct Answer: C) python3
+
+Question 19 of 20
+Which command exits from the Python command-line prompt?
+
+- A) stop
+- B) break()
+- C) exit()
+- D) terminate
+
+Correct Answer: C) exit()
+
+Question 20 of 20
+If you execute the following expression, what is the output?
+>>> 3 + 5 * 2
+
+- A) 10
+- B) 13
+- C) 16
+
+Correct Answer: C) 16 
+
+

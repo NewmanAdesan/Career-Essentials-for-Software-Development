@@ -315,5 +315,90 @@ Functions: parameters and arguments
     - THE KEY thing to know is that functions have the ability to change their behavior based on their parameters and arguments. 
 
 
+Functions Across languages
+    - we've seen functions that fall into four main categories. 
+    - those that have no parameters and no return value, 
+    - those that have no parameters but do return a value, 
+    - those that have parameters and don't return a value, 
+    - those that have both parameters and a return value. 
+    - But so far, we've only seen these functions in Python. 
+    -
+    -
+    - Funtions in Java: !parameter & !return-value
+    - those that have no parameters and no return value"
+        void hello() {
+            System.out.println("Hi friends!");
+        }
+    - the void keyword means it does not return a value
+    - Unlike Python, Java requires that you always specify explicitly what the return type is of a function, even when that function isn't going to return a value.
+    -
+    - Funtions in Kotlin: parameter & !return-value
+        fun checkGrade(grade: String) {
+            if (grade == "A")
+                println("You Aced the Class")
+        }
+    - the fun keyword (this is the tell)
+    - the curly braces
+    - the type of the parameter
+    -
+    - Funtions in Ruby: parameter & !return-value
+        def calculate_check(hourly_rate)
+            hourly_rate * 40
+        end
+    - the end keyword is the tell
+    - 
+    - Functions in C++
+        int main() {
+            int balance;
+            balance = withdrawMoney(100, 50);
+            cout << "Balance is:" << balance << endl;
+            return 0;
+        }
+    - the cout keyword is the tell
 
 
+The C Programming Language
+    - as at recording time the top 5 most popular are Java, C, C++, Python
+    - and they all inherit ideas from C. lets look at a function in C
+            #include <stdio.h>
+
+            // the main function
+            int main(void) {
+                printf("Hello world!");
+            }
+    - the include statement helps to link to code that someone else wrote into your program.
+    - as programmers, it's our job to develop software that meets a business need. 
+    - and we often do this with a specific deadline in view,
+    - thus we cant afford to be repeating code & logic that has been written by others and verified
+    - doing this is so common in programming that we call the grouping of variables and functions that someone else has written and verified, a library.
+    -
+    -
+    - It's used for programming operating systems, games, smart devices, and even compilers for other languages.
+    - If you're interested in making a desktop, web, or mobile application, 
+    - C is not really your best choice. 
+    - It's a low-level language and requires more advanced programming knowledge.
+
+The Java Programming Language
+    - Java is a cross-platform programming language. 
+    - this means that you can write your Java code, compile it, 
+    - and then any device that has the needed program installed can run it. 
+    -
+    - it's famous for desktop applications and mobile apps for Android. 
+    - it's a C-based language, but unlike C, everything in Java is in what's called a class. 
+    - it uses the class keyword and this is how java prefers to organize its code
+            public class Hello {
+                public static void main(String[] args) {
+                    System.out.println("Hi friends!");
+                }
+            }
+
+The C++ Programming Language
+    - it is also a C-based language. 
+    - it's earlier to learn and work with than C 
+    - because it has something called garbage collection. 
+    - Garbage collection cleans up unused variables for us so that we don't have to worry about handling it ourselves. 
+    - C++ is used for games and game engines. 
+
+Others
+    -  Swift and Objective-C for iOS development, 
+    - Ruby and JavaScript for web apps, and so on.
